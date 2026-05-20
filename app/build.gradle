@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace "com.irsakitchen.printagent"
     compileSdk 33
 
     defaultConfig {
