@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/base_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Base URL" />
+
+    <EditText
+        android:id="@+id/token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Token" />
+
+    <EditText
+        android:id="@+id/printer_package"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Printer package (optional)" />
+
+    <EditText
+        android:id="@+id/polling_seconds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Polling seconds" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service" />
+
+    <Button
+        android:id="@+id/test_print_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Print" />
+
+</LinearLayout>

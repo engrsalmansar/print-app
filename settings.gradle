@@ -1,0 +1,2 @@
+rootProject.name = 'IrsaPrintAgent'
+include ':app'
